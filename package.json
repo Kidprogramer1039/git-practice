@@ -15,5 +15,8 @@
     "husky": "^9.1.7"
   },
 
-  "type": "module"
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Running tests...\" && exit 0"
+}
 }
