@@ -1,0 +1,5 @@
+# Ignore Husky
+.husky/
+
+# Ignore Node Modules
+node_modules/
