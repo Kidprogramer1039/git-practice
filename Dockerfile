@@ -1,4 +1,4 @@
-FROM node:22.11.9-alpine
+FROM node:alpine
 WORKDIR /incheon
 COPY . .
 RUN npm install
