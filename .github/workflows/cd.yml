@@ -16,8 +16,8 @@ jobs:
 
       # Docker Hub에서 최신 Docker 이미지 가져오기
       - name: Pull Docker Image from Docker hub
-        run: sudo docker pull dweblab/songdo:latest
+        run: sudo docker pull gwangh72/songdo:latest
 
       # Docker 컨테이너 실행
       - name: Execute Docker Container
-        run: sudo docker run -d -p 80:3000 --name dweb dweblab/songdo:latest
+        run: sudo docker run -d -p 80:3000 --name dweb gwangh72/songdo:latest
